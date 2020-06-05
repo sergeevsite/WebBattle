@@ -634,8 +634,8 @@ img {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  -webkit-transition: .8s ease-in-out;
-  transition: .8s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .card__parameters {
@@ -744,8 +744,8 @@ img {
 }
 
 .card:hover > .card__image > img {
-  -webkit-transform: scale(1.04);
-          transform: scale(1.04);
+  -webkit-filter: saturate(200%);
+          filter: saturate(200%);
 }
 
 @media (max-width: 575px) {
